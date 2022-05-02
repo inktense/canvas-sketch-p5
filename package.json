@@ -1,0 +1,24 @@
+{
+  "name": "pj5-animations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inktense/pj5-animations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inktense/pj5-animations/issues"
+  },
+  "homepage": "https://github.com/inktense/pj5-animations#readme",
+  "dependencies": {
+    "canvas-sketch": "^0.7.5",
+    "p5": "^1.4.1"
+  }
+}
