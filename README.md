@@ -20,6 +20,16 @@ canvas-sketch index.js --output=output/
 ```
 
 Exporting gifs
+
+First, you'll need `ffmpeg` installed. You can do the following to install a global utility:
 ```
+npm install @ffmpeg-installer/ffmpeg --global
+```
+Then run: 
+```
+# Save animations to GIF file instead
 canvas-sketch index.js --output=tmp --stream=gif
+
+# Save animations to MP4 file
+canvas-sketch animation.js --output=tmp --stream
 ```
