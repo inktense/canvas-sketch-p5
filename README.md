@@ -3,12 +3,23 @@
 Testing pj5 library while using canvas-sketch.
 
 --------------------------------
-### Commands
+## Pre-requisites
 
-Run project 
+- [canvas-sketch](https://github.com/mattdesl/canvas-sketch).
+- [p5.js](https://p5js.org/).
+---------------------------------------------------------------
+## Commands 
 
-```Cd into directory canvas-sketch index.js```
+Start project 
+```
+canvas-sketch index.js
+```
+Expoting images 
+```
+canvas-sketch index.js --output=output/
+```
 
-Output gifs
-
-```canvas-sketch index.js --output=tmp --stream=gif```
+Exporting gifs
+```
+canvas-sketch index.js --output=tmp --stream=gif
+```
